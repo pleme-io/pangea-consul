@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Consul; module Types; end; end; end; end
+
 # Consul resources
 require_relative 'pangea/resources/consul_acl_auth_method/resource'
 require_relative 'pangea/resources/consul_acl_binding_rule/resource'
